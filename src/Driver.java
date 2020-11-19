@@ -1,6 +1,8 @@
 public class Driver {
 
     public static void main(String[] args) {
-        System.out.println("hello world");
+        NotificationCollection notificationCollection = new NotificationCollection();
+        NotificationBar notificationBar = new NotificationBar(notificationCollection);
+        notificationBar.printNotifications();
     }
 }
