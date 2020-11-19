@@ -13,7 +13,7 @@ public class NotificationBar
         System.out.println("-------NOTIFICATION BAR------------");
         while (iterator.hasNext())
         {
-            Notification n = (Notification)iterator.next();
+            Notification n = (Notification)iterator.getNext();
             System.out.println(n.getNotification());
         }
     }
