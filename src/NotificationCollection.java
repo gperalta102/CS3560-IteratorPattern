@@ -25,7 +25,7 @@ public class NotificationCollection implements Collection {
 
     @Override
     public Iterator createIterator() {
-        return new NotificationIterator(notificationList);
+        return new NotificationIterator(notifications);
     }
 
 }
